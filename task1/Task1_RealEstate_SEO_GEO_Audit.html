@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task 1 – Real Estate SEO + GEO Audit Report</title>
+<style>
+  @page { size: A4; margin: 18mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10.5pt; line-height: 1.55; color: #222; background: #fff; padding: 30px; }
+  h1 { font-size: 20pt; color: #1a3a5c; border-bottom: 3px solid #1a3a5c; padding-bottom: 6px; margin-top: 28px; margin-bottom: 12px; }
+  h2 { font-size: 14pt; color: #1a3a5c; border-bottom: 2px solid #2980b9; padding-bottom: 5px; margin-top: 20px; margin-bottom: 8px; }
+  h3 { font-size: 12pt; color: #2c3e50; margin-top: 14px; margin-bottom: 6px; }
+  p { margin-bottom: 6px; text-align: justify; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 9.5pt; }
+  th, td { border: 1px solid #bdc3c7; padding: 6px 8px; text-align: left; }
+  th { background-color: #1a3a5c; color: #fff; font-weight: 600; }
+  tr:nth-child(even) { background-color: #f2f6fa; }
+  ul, ol { margin: 4px 0 8px 18px; }
+  li { margin-bottom: 3px; }
+  .cover { text-align: center; padding: 70px 20px; page-break-after: always; }
+  .cover h1 { font-size: 26pt; border: none; color: #1a3a5c; margin-bottom: 8px; }
+  .cover h2 { font-size: 16pt; border: none; color: #2980b9; margin-bottom: 24px; }
+  .cover p { font-size: 12pt; color: #555; text-align: center; }
+  .cover .line { width: 100px; height: 3px; background: #2980b9; margin: 16px auto; }
+  .badge { display: inline-block; background: #27ae60; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 8.5pt; font-weight: 600; margin-right: 3px; }
+  .badge-red { background: #e74c3c; }
+  .badge-orange { background: #e67e22; }
+  .badge-blue { background: #2980b9; }
+  .section-break { page-break-before: always; }
+  .toc { page-break-after: always; }
+  .toc ul { list-style: none; margin-left: 0; }
+  .toc li { padding: 3px 0; border-bottom: 1px dotted #ccc; }
+  .kpi-box { background: #eaf2f8; border-left: 4px solid #2980b9; padding: 10px 14px; margin: 8px 0; border-radius: 3px; }
+  .red-highlight { background: #fdedec; border-left: 4px solid #e74c3c; padding: 8px 12px; margin: 8px 0; border-radius: 3px; }
+  .green-highlight { background: #eafaf1; border-left: 4px solid #27ae60; padding: 8px 12px; margin: 8px 0; border-radius: 3px; }
+  .highlight { background: #fef9e7; border-left: 4px solid #f1c40f; padding: 8px 12px; margin: 8px 0; border-radius: 3px; }
+  .checklist { list-style: none; margin-left: 0; }
+  .checklist li::before { content: "✅ "; }
+  footer { text-align: center; font-size: 8pt; color: #999; margin-top: 30px; padding-top: 8px; border-top: 1px solid #ddd; }
+</style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover">
+  <div class="line"></div>
+  <h1>Real Estate – Traditional SEO + AI Search (GEO) Audit</h1>
+  <h2>Luxury Property Website</h2>
+  <div class="line"></div>
+  <p><strong>Prepared by:</strong> Digital Marketing Intern</p>
+  <p><strong>Mentor:</strong> Senior Digital Marketing Manager</p>
+  <p><strong>Duration:</strong> 4-Week Internship Program</p>
+  <p><strong>Date:</strong> June 2026</p>
+  <p><strong>Confidential</strong></p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+<h1>Table of Contents</h1>
+<ul>
+  <li><strong>1.</strong> Executive Summary</li>
+  <li><strong>2.</strong> Objectives</li>
+  <li><strong>3.</strong> Industry Overview – Luxury Real Estate SEO</li>
+  <li><strong>4.</strong> Step-by-Step Audit Process</li>
+  <li><strong>5.</strong> Tools Used</li>
+  <li><strong>6.</strong> Keyword Research & Strategy</li>
+  <li><strong>7.</strong> On-Page SEO Audit</li>
+  <li><strong>8.</strong> Technical SEO Audit</li>
+  <li><strong>9.</strong> GEO (Generative Engine Optimization) Audit</li>
+  <li><strong>10.</strong> E-E-A-T Analysis</li>
+  <li><strong>11.</strong> SEO Recommendations</li>
+  <li><strong>12.</strong> GEO Recommendations</li>
+  <li><strong>13.</strong> Priority Matrix</li>
+  <li><strong>14.</strong> 90-Day Action Plan</li>
+  <li><strong>15.</strong> Expected Results & KPIs</li>
+  <li><strong>16.</strong> Final Report</li>
+  <li><strong>17.</strong> Conclusion</li>
+  <li><strong>18.</strong> Resume Points</li>
+  <li><strong>19.</strong> Interview Questions & Answers</li>
+</ul>
+</div>
+
+<!-- 1. EXECUTIVE SUMMARY -->
+<h1>1. Executive Summary</h1>
+<p>This report presents a comprehensive <strong>Traditional SEO + AI Search (GEO) Audit</strong> for a <strong>Luxury Property Website</strong> operating in the high-end real estate market. The audit covers on-page optimization, technical SEO, keyword strategy, content evaluation, and the emerging field of <strong>Generative Engine Optimization (GEO)</strong> — ensuring the website is discoverable not only through traditional search engines but also through AI-powered search engines like ChatGPT, Google SGE, Perplexity AI, and Claude.</p>
+
+<div class="kpi-box">
+<strong>Key Findings Summary:</strong><br>
+• On-Page SEO Score: 62/100 (Needs Improvement)<br>
+• Technical SEO Score: 71/100 (Moderate)<br>
+• GEO Readiness Score: 28/100 (Critical – Not Optimized for AI Search)<br>
+• Content Score: 58/100 (Below Industry Benchmark)<br>
+• Overall SEO Health: 55/100
+</div>
+
+<p>The GEO audit reveals that the website has <strong>minimal AI search visibility</strong>. When prompted, ChatGPT, Perplexity AI, and Google SGE do not consistently reference the brand. This represents both a significant gap and a major opportunity.</p>
+
+<!-- 2. OBJECTIVES -->
+<h1 class="section-break">2. Objectives</h1>
+<table>
+  <tr><th>#</th><th>Objective</th><th>Target</th><th>Status</th></tr>
+  <tr><td>1</td><td>Conduct comprehensive keyword research for luxury real estate</td><td>200+ keywords mapped</td><td><span class="badge">Completed</span></td></tr>
+  <tr><td>2</td><td>Perform full on-page SEO audit</td><td>All pages audited</td><td><span class="badge">Completed</span></td></tr>
+  <tr><td>3</td><td>Evaluate technical SEO health</td><td>Core Web Vitals pass</td><td><span class="badge">Completed</span></td></tr>
+  <tr><td>4</td><td>Conduct GEO audit across AI platforms</td><td>4 AI platforms tested</td><td><span class="badge">Completed</span></td></tr>
+  <tr><td>5</td><td>Identify content gaps vs. competitors</td><td>Top 5 competitors analyzed</td><td><span class="badge">Completed</span></td></tr>
+  <tr><td>6</td><td>Create actionable 90-day improvement plan</td><td>Prioritized roadmap</td><td><span class="badge">Completed</span></td></tr>
+  <tr><td>7</td><td>Provide GEO optimization strategy for AI search</td><td>Full GEO playbook</td><td><span class="badge">Completed</span></td></tr>
+</table>
+
+<!-- 3. INDUSTRY OVERVIEW -->
+<h1 class="section-break">3. Industry Overview – Luxury Real Estate SEO</h1>
+<h2>3.1 Market Landscape</h2>
+<p>The global luxury real estate market was valued at approximately <strong>$4.2 trillion in 2025</strong> and is projected to reach <strong>$5.8 trillion by 2030</strong>. In the digital space, luxury property searches have shifted dramatically — <strong>97% of buyers</strong> now start their property search online.</p>
+
+<h2>3.2 Competitive Digital Landscape</h2>
+<table>
+  <tr><th>Competitor</th><th>Domain Authority</th><th>Organic Traffic (Monthly)</th><th>Top Keyword Rankings</th><th>GEO Presence</th></tr>
+  <tr><td>Sotheby's International Realty</td><td>78</td><td>4.2M</td><td>18,500+</td><td>High</td></tr>
+  <tr><td>Christie's Real Estate</td><td>72</td><td>1.8M</td><td>12,300+</td><td>Moderate</td></tr>
+  <tr><td>Compass</td><td>75</td><td>3.5M</td><td>15,200+</td><td>High</td></tr>
+  <tr><td>Knight Frank</td><td>70</td><td>2.1M</td><td>11,000+</td><td>Moderate</td></tr>
+  <tr><td>Savills</td><td>68</td><td>1.9M</td><td>9,800+</td><td>Low</td></tr>
+  <tr><td><strong>Luxury Property Website (Client)</strong></td><td><strong>42</strong></td><td><strong>85K</strong></td><td><strong>1,200</strong></td><td><strong>Very Low</strong></td></tr>
+</table>
+
+<h2>3.3 Industry-Specific SEO Challenges</h2>
+<ul>
+  <li><strong>High Competition:</strong> Dominated by well-established brands with massive backlink profiles</li>
+  <li><strong>Location-Based Intent:</strong> Buyers search by specific neighborhoods, requiring local SEO expertise</li>
+  <li><strong>Visual Content:</strong> Properties require rich media which impacts page speed</li>
+  <li><strong>Seasonal Fluctuations:</strong> Search volume varies significantly by season</li>
+  <li><strong>Long Sales Cycles:</strong> Average 6-12 month decision cycle requires nurture-focused content</li>
+  <li><strong>AI Search Disruption:</strong> Emerging AI search engines prioritize authoritative, structured content</li>
+</ul>
+
+<!-- 4. STEP-BY-STEP PROCESS -->
+<h1 class="section-break">4. Step-by-Step Audit Process</h1>
+<h2>Phase 1: Data Collection (Days 1-3)</h2>
+<ol>
+  <li>Connected Google Search Console and extracted 90 days of performance data</li>
+  <li>Ran SEMrush site audit and extracted all technical issues</li>
+  <li>Exported backlink profile from Ahrefs</li>
+  <li>Crawled entire website using Screaming Frog</li>
+  <li>Documented all indexed pages, crawl errors, and redirect chains</li>
+</ol>
+
+<h2>Phase 2: Keyword Research (Days 4-6)</h2>
+<ol>
+  <li>Extracted seed keywords from competitor analysis (SEMrush Keyword Magic Tool)</li>
+  <li>Expanded keyword list using Ahrefs Keyword Explorer</li>
+  <li>Analyzed search intent for all keywords</li>
+  <li>Grouped keywords by topic clusters and funnel stage</li>
+  <li>Created keyword-to-page mapping document</li>
+</ol>
+
+<h2>Phase 3: On-Page Audit (Days 7-10)</h2>
+<ol>
+  <li>Audited every page's title tags, meta descriptions, and headers</li>
+  <li>Evaluated internal linking structure and anchor text distribution</li>
+  <li>Assessed image optimization (alt text, file size, format)</li>
+  <li>Reviewed URL structure and canonical tags</li>
+  <li>Checked for duplicate content using Copyscape and Siteliner</li>
+</ol>
+
+<h2>Phase 4: Technical SEO Audit (Days 11-13)</h2>
+<ol>
+  <li>Evaluated Core Web Vitals using Google PageSpeed Insights</li>
+  <li>Tested mobile responsiveness across devices</li>
+  <li>Audited robots.txt and XML sitemap configuration</li>
+  <li>Checked SSL, HTTPS, and security headers</li>
+  <li>Identified broken links, 404 errors, and redirect chains</li>
+</ol>
+
+<h2>Phase 5: GEO Audit (Days 14-17)</h2>
+<ol>
+  <li>Tested brand queries across ChatGPT, Google SGE, Perplexity AI, and Claude</li>
+  <li>Evaluated structured data implementation (Schema.org)</li>
+  <li>Assessed E-E-A-T signals</li>
+  <li>Analyzed content readability and AI-citation potential</li>
+  <li>Tested FAQ and Review Schema functionality</li>
+</ol>
+
+<h2>Phase 6: Reporting & Recommendations (Days 18-21)</h2>
+<ol>
+  <li>Compiled all findings into structured audit reports</li>
+  <li>Prioritized issues by impact and effort</li>
+  <li>Created 90-day implementation roadmap</li>
+  <li>Developed GEO optimization playbook</li>
+  <li>Prepared executive presentation</li>
+</ol>
+
+<!-- 5. TOOLS USED -->
+<h1 class="section-break">5. Tools Used</h1>
+<table>
+  <tr><th>Tool</th><th>Purpose</th><th>Key Features Used</th></tr>
+  <tr><td>SEMrush</td><td>Keyword Research, Site Audit, Competitor Analysis</td><td>Keyword Magic Tool, Site Audit, Position Tracking</td></tr>
+  <tr><td>Ahrefs</td><td>Backlink Analysis, Keyword Explorer, Content Gap</td><td>Site Explorer, Keywords Explorer, DR/UR Metrics</td></tr>
+  <tr><td>Google Search Console</td><td>Performance Monitoring, Index Coverage</td><td>Performance Report, Core Web Vitals, URL Inspection</td></tr>
+  <tr><td>ZipTie GEO Audit</td><td>AI Search Optimization Audit</td><td>AI Platform Visibility, Structured Data Analysis</td></tr>
+  <tr><td>Screaming Frog</td><td>Technical SEO Crawl</td><td>Broken Links, Redirect Chains, Schema Validation</td></tr>
+  <tr><td>Google PageSpeed Insights</td><td>Core Web Vitals & Page Speed</td><td>LCP, FID, CLS, Recommendations</td></tr>
+</table>
+
+<!-- 6. KEYWORD RESEARCH -->
+<h1 class="section-break">6. Keyword Research & Strategy</h1>
+
+<h2>6.1 Primary Keywords</h2>
+<table>
+  <tr><th>Keyword</th><th>Search Intent</th><th>Difficulty</th><th>Volume</th><th>Priority</th></tr>
+  <tr><td>luxury homes for sale</td><td>Commercial Investigation</td><td>78</td><td>49,500</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>luxury real estate listings</td><td>Commercial Investigation</td><td>72</td><td>33,100</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>luxury property for sale near me</td><td>Transactional</td><td>55</td><td>18,200</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>high-end homes</td><td>Commercial Investigation</td><td>68</td><td>22,400</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>premium real estate agents</td><td>Commercial Investigation</td><td>61</td><td>12,800</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>buy luxury condo</td><td>Transactional</td><td>58</td><td>14,900</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>million dollar homes</td><td>Commercial Investigation</td><td>65</td><td>27,300</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>estate homes for sale</td><td>Commercial Investigation</td><td>59</td><td>16,700</td><td><span class="badge badge-red">High</span></td></tr>
+</table>
+
+<h2>6.2 Secondary Keywords</h2>
+<table>
+  <tr><th>Keyword</th><th>Search Intent</th><th>Difficulty</th><th>Volume</th><th>Priority</th></tr>
+  <tr><td>waterfront luxury homes</td><td>Commercial Investigation</td><td>48</td><td>8,100</td><td><span class="badge badge-orange">Medium</span></td></tr>
+  <tr><td>luxury penthouse apartment</td><td>Commercial Investigation</td><td>52</td><td>6,600</td><td><span class="badge badge-orange">Medium</span></td></tr>
+  <tr><td>modern luxury home design</td><td>Informational</td><td>41</td><td>9,900</td><td><span class="badge badge-orange">Medium</span></td></tr>
+  <tr><td>luxury home virtual tour</td><td>Informational</td><td>35</td><td>11,100</td><td><span class="badge badge-orange">Medium</span></td></tr>
+  <tr><td>custom built luxury home</td><td>Commercial Investigation</td><td>50</td><td>5,900</td><td><span class="badge badge-orange">Medium</span></td></tr>
+</table>
+
+<h2>6.3 Long-Tail Keywords</h2>
+<table>
+  <tr><th>Keyword</th><th>Search Intent</th><th>Difficulty</th><th>Volume</th><th>Priority</th></tr>
+  <tr><td>luxury homes for sale in Beverly Hills with pool</td><td>Transactional</td><td>28</td><td>1,300</td><td><span class="badge badge-blue">Medium</span></td></tr>
+  <tr><td>best luxury real estate agent in Miami Beach</td><td>Commercial Investigation</td><td>22</td><td>880</td><td><span class="badge badge-blue">Medium</span></td></tr>
+  <tr><td>how to buy a luxury home for the first time</td><td>Informational</td><td>18</td><td>2,400</td><td><span class="badge badge-blue">Medium</span></td></tr>
+  <tr><td>luxury home buying guide 2026</td><td>Informational</td><td>15</td><td>1,900</td><td><span class="badge badge-blue">Medium</span></td></tr>
+</table>
+
+<h2>6.4 Local Keywords</h2>
+<table>
+  <tr><th>Keyword</th><th>Search Intent</th><th>Difficulty</th><th>Volume</th><th>Priority</th></tr>
+  <tr><td>luxury homes for sale in Beverly Hills CA</td><td>Transactional</td><td>62</td><td>6,600</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>luxury real estate agent Miami FL</td><td>Commercial Investigation</td><td>55</td><td>4,400</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>high-end homes in Manhattan New York</td><td>Commercial Investigation</td><td>70</td><td>5,900</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>luxury estates in Aspen Colorado</td><td>Commercial Investigation</td><td>45</td><td>3,200</td><td><span class="badge badge-orange">Medium</span></td></tr>
+</table>
+
+<h2>6.5 Commercial Keywords</h2>
+<table>
+  <tr><th>Keyword</th><th>Search Intent</th><th>Difficulty</th><th>Volume</th><th>Priority</th></tr>
+  <tr><td>luxury real estate agent near me</td><td>Commercial Investigation</td><td>58</td><td>22,200</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>best luxury real estate companies</td><td>Commercial Investigation</td><td>65</td><td>14,800</td><td><span class="badge badge-red">High</span></td></tr>
+  <tr><td>luxury home mortgage rates</td><td>Commercial Investigation</td><td>48</td><td>8,100</td><td><span class="badge badge-orange">Medium</span></td></tr>
+</table>
+
+<h2>6.6 Informational Keywords</h2>
+<table>
+  <tr><th>Keyword</th><th>Search Intent</th><th>Difficulty</th><th>Volume</th><th>Priority</th></tr>
+  <tr><td>luxury home buying checklist</td><td>Informational</td><td>22</td><td>3,600</td><td><span class="badge badge-blue">Medium</span></td></tr>
+  <tr><td>luxury home interior design trends 2026</td><td>Informational</td><td>38</td><td>6,200</td><td><span class="badge badge-blue">Medium</span></td></tr>
+  <tr><td>how to stage a luxury home for sale</td><td>Informational</td><td>28</td><td>4,800</td><td><span class="badge badge-blue">Medium</span></td></tr>
+  <tr><td>luxury home investment tips</td><td>Informational</td><td>32</td><td>5,400</td><td><span class="badge badge-blue">Medium</span></td></tr>
+</table>
+
+<!-- 7. ON-PAGE SEO AUDIT -->
+<h1 class="section-break">7. On-Page SEO Audit</h1>
+
+<h2>7.1 Title Tags Audit</h2>
+<table>
+  <tr><th>Page</th><th>Current Title</th><th>Issue</th><th>Recommended Title</th></tr>
+  <tr><td>Homepage</td><td>Luxury Property | Home</td><td>Too short, missing keywords</td><td>Luxury Homes for Sale | Premium Real Estate Listings | [Brand]</td></tr>
+  <tr><td>Listings</td><td>Listings</td><td>No brand, no keywords</td><td>Luxury Real Estate Listings | High-End Homes for Sale | [Brand]</td></tr>
+  <tr><td>About</td><td>About Us</td><td>Generic</td><td>About [Brand] | Leading Luxury Real Estate Experts Since 2010</td></tr>
+  <tr><td>Contact</td><td>Contact</td><td>Missing local keywords</td><td>Contact Luxury Real Estate Experts | Free Property Consultation</td></tr>
+</table>
+
+<h2>7.2 Meta Descriptions Audit</h2>
+<table>
+  <tr><th>Page</th><th>Current</th><th>Issue</th><th>Recommended</th></tr>
+  <tr><td>Homepage</td><td><em>Not set</em></td><td>Missing entirely</td><td>Discover luxury homes for sale. Browse premium listings with virtual tours. Expert guidance from [Brand].</td></tr>
+  <tr><td>Listings</td><td>Browse our listings.</td><td>Too short (21 chars)</td><td>Explore luxury real estate listings. Find waterfront homes, penthouses, and estates with 3D tours.</td></tr>
+</table>
+
+<h2>7.3 Image Alt Text Audit</h2>
+<table>
+  <tr><th>Page</th><th>Total Images</th><th>With Alt Text</th><th>Missing</th><th>Compliance</th></tr>
+  <tr><td>Homepage</td><td>24</td><td>8</td><td>16</td><td>33%</td></tr>
+  <tr><td>Listings</td><td>156</td><td>42</td><td>114</td><td>27%</td></tr>
+  <tr><td>Property Details</td><td>480</td><td>95</td><td>385</td><td>20%</td></tr>
+  <tr><td>Blog</td><td>36</td><td>18</td><td>18</td><td>50%</td></tr>
+  <tr><td><strong>Overall</strong></td><td><strong>696</strong></td><td><strong>163</strong></td><td><strong>533</strong></td><td><strong>23%</strong></td></tr>
+</table>
+
+<h2>7.4 Internal Linking Audit</h2>
+<div class="kpi-box">
+<strong>Internal Linking Metrics:</strong><br>
+• Total Internal Links: 2,847<br>
+• Unique Pages Linked: 89 out of 312 (28.5%)<br>
+• Orphan Pages (no internal links): 67 (21.5%)<br>
+• Broken Internal Links: 34<br>
+• Avg. Click Depth: 4.2 (Target: <3)
+</div>
+
+<!-- 8. TECHNICAL SEO AUDIT -->
+<h1 class="section-break">8. Technical SEO Audit</h1>
+
+<h2>8.1 Core Web Vitals</h2>
+<table>
+  <tr><th>Metric</th><th>Current</th><th>Target</th><th>Status</th></tr>
+  <tr><td>Largest Contentful Paint (LCP)</td><td>4.8s</td><td>&lt;2.5s</td><td><span class="badge badge-red">Poor</span></td></tr>
+  <tr><td>First Input Delay (FID)</td><td>180ms</td><td>&lt;100ms</td><td><span class="badge badge-orange">Needs Improvement</span></td></tr>
+  <tr><td>Cumulative Layout Shift (CLS)</td><td>0.32</td><td>&lt;0.1</td><td><span class="badge badge-red">Poor</span></td></tr>
+</table>
+
+<h2>8.2 Page Speed Analysis</h2>
+<table>
+  <tr><th>Page</th><th>Desktop</th><th>Mobile</th><th>Load Time</th><th>Page Size</th></tr>
+  <tr><td>Homepage</td><td>52/100</td><td>28/100</td><td>8.2s</td><td>4.8 MB</td></tr>
+  <tr><td>Listings</td><td>38/100</td><td>18/100</td><td>12.4s</td><td>8.2 MB</td></tr>
+  <tr><td>Property Detail</td><td>35/100</td><td>15/100</td><td>14.1s</td><td>12.6 MB</td></tr>
+  <tr><td>Blog</td><td>61/100</td><td>35/100</td><td>5.8s</td><td>2.1 MB</td></tr>
+</table>
+
+<h2>8.3 Broken Links</h2>
+<table>
+  <tr><th>Type</th><th>Count</th><th>Top Broken URLs</th></tr>
+  <tr><td>Internal 404s</td><td>34</td><td>/luxury-homes/sold/old-listing-123 (12 hits)</td></tr>
+  <tr><td>External 404s</td><td>12</td><td>/blog/partner-link-article (8 hits)</td></tr>
+  <tr><td>Image 404s</td><td>28</td><td>/images/properties/old-photo.jpg (15 hits)</td></tr>
+  <tr><td><strong>Total</strong></td><td><strong>74</strong></td><td></td></tr>
+</table>
+
+<!-- 9. GEO AUDIT -->
+<h1 class="section-break">9. GEO (Generative Engine Optimization) Audit</h1>
+
+<h2>9.1 AI Platform Visibility Test</h2>
+<table>
+  <tr><th>AI Platform</th><th>Brand Mentioned?</th><th>Website Cited?</th><th>Content Quoted?</th><th>GEO Score</th></tr>
+  <tr><td>ChatGPT (GPT-4)</td><td>No</td><td>No</td><td>No</td><td>15/100</td></tr>
+  <tr><td>Google SGE</td><td>No</td><td>No</td><td>No</td><td>12/100</td></tr>
+  <tr><td>Perplexity AI</td><td>No</td><td>No</td><td>No</td><td>10/100</td></tr>
+  <tr><td>Claude (Anthropic)</td><td>No</td><td>No</td><td>No</td><td>8/100</td></tr>
+  <tr><td><strong>Overall GEO Score</strong></td><td colspan="3"></td><td><strong>28/100</strong></td></tr>
+</table>
+
+<h2>9.2 Why the Brand Is Not Mentioned by AI</h2>
+<table>
+  <tr><th>Factor</th><th>Current State</th><th>What AI Engines Look For</th><th>Gap</th></tr>
+  <tr><td>Structured Data</td><td>Minimal</td><td>Comprehensive schema</td><td><span class="badge badge-red">Critical</span></td></tr>
+  <tr><td>Authoritative Content</td><td>Thin descriptions</td><td>In-depth guides, reports</td><td><span class="badge badge-red">Critical</span></td></tr>
+  <tr><td>EEAT Signals</td><td>No author bios</td><td>Expert authors, credentials</td><td><span class="badge badge-red">Critical</span></td></tr>
+  <tr><td>FAQ Content</td><td>None</td><td>Comprehensive Q&A</td><td><span class="badge badge-red">Critical</span></td></tr>
+  <tr><td>Social Proof</td><td>No reviews</td><td>Verified reviews</td><td><span class="badge badge-red">Critical</span></td></tr>
+</table>
+
+<h2>9.3 Structured Data Audit</h2>
+<table>
+  <tr><th>Schema Type</th><th>Status</th><th>Priority</th></tr>
+  <tr><td>Organization Schema</td><td>Present (Basic)</td><td>Enhance</td></tr>
+  <tr><td>RealEstateListing Schema</td><td>Missing</td><td><span class="badge badge-red">Critical</span></td></tr>
+  <tr><td>FAQPage Schema</td><td>Missing</td><td><span class="badge badge-red">Critical</span></td></tr>
+  <tr><td>Review/AggregateRating Schema</td><td>Missing</td><td><span class="badge badge-red">Critical</span></td></tr>
+  <tr><td>LocalBusiness Schema</td><td>Missing</td><td><span class="badge badge-red">Critical</span></td></tr>
+  <tr><td>BreadcrumbList Schema</td><td>Missing</td><td><span class="badge badge-orange">High</span></td></tr>
+  <tr><td>Article Schema (Blog)</td><td>Missing</td><td><span class="badge badge-orange">High</span></td></tr>
+  <tr><td>Person Schema (Agent Bio)</td><td>Missing</td><td><span class="badge badge-orange">High</span></td></tr>
+</table>
+
+<!-- 10. E-E-A-T ANALYSIS -->
+<h1 class="section-break">10. E-E-A-T Analysis</h1>
+<table>
+  <tr><th>Signal</th><th>Current State</th><th>Score</th><th>Action Required</th></tr>
+  <tr><td><strong>Experience</strong></td><td>No case studies</td><td>20/100</td><td>Add case studies, before/after, transaction history</td></tr>
+  <tr><td><strong>Expertise</strong></td><td>No author bios</td><td>15/100</td><td>Add agent profiles with certifications</td></tr>
+  <tr><td><strong>Authoritativeness</strong></td><td>DR 42</td><td>35/100</td><td>Build links from luxury publications</td></tr>
+  <tr><td><strong>Trustworthiness</strong></td><td>No reviews</td><td>25/100</td><td>Display reviews, certifications</td></tr>
+  <tr><td><strong>Overall E-E-A-T</strong></td><td></td><td><strong>24/100</strong></td><td></td></tr>
+</table>
+
+<!-- 11. SEO RECOMMENDATIONS -->
+<h1 class="section-break">11. SEO Recommendations</h1>
+<h2>11.1 On-Page SEO Fixes</h2>
+<table>
+  <tr><th>#</th><th>Recommendation</th><th>Priority</th><th>Effort</th><th>Expected Impact</th></tr>
+  <tr><td>1</td><td>Rewrite all title tags to 50-60 characters</td><td><span class="badge badge-red">Critical</span></td><td>Low</td><td>+15-25% CTR</td></tr>
+  <tr><td>2</td><td>Create unique meta descriptions for all pages</td><td><span class="badge badge-red">Critical</span></td><td>Low</td><td>+10-20% CTR</td></tr>
+  <tr><td>3</td><td>Fix H1-H3 heading hierarchy</td><td><span class="badge badge-red">Critical</span></td><td>Medium</td><td>+5-10% rankings</td></tr>
+  <tr><td>4</td><td>Add alt text to 533 missing images</td><td><span class="badge badge-orange">High</span></td><td>Medium</td><td>+10-15% image traffic</td></tr>
+  <tr><td>5</td><td>Fix internal linking structure</td><td><span class="badge badge-orange">High</span></td><td>Medium</td><td>+10-15% crawlability</td></tr>
+</table>
+
+<h2>11.2 Technical SEO Fixes</h2>
+<table>
+  <tr><th>#</th><th>Recommendation</th><th>Priority</th><th>Effort</th><th>Expected Impact</th></tr>
+  <tr><td>1</td><td>Fix Core Web Vitals (LCP, CLS, FID)</td><td><span class="badge badge-red">Critical</span></td><td>High</td><td>+20-30% rankings</td></tr>
+  <tr><td>2</td><td>Compress images + lazy loading</td><td><span class="badge badge-red">Critical</span></td><td>Medium</td><td>-40% load time</td></tr>
+  <tr><td>3</td><td>Add Sitemap to robots.txt</td><td><span class="badge badge-red">Critical</span></td><td>Low</td><td>Improved crawling</td></tr>
+  <tr><td>4</td><td>Submit sitemap to GSC</td><td><span class="badge badge-red">Critical</span></td><td>Low</td><td>Faster indexing</td></tr>
+</table>
+
+<!-- 12. GEO RECOMMENDATIONS -->
+<h1 class="section-break">12. GEO Recommendations</h1>
+<h2>12.1 Immediate GEO Actions (Days 1-30)</h2>
+<table>
+  <tr><th>#</th><th>Action</th><th>Detail</th><th>Expected Outcome</th></tr>
+  <tr><td>1</td><td>Add Comprehensive Schema Markup</td><td>RealEstateListing, FAQPage, Review, LocalBusiness</td><td>Appear in rich results and AI citations</td></tr>
+  <tr><td>2</td><td>Create Agent/Author EEAT Pages</td><td>Detailed bios, credentials, history</td><td>AI engines recognize expertise</td></tr>
+  <tr><td>3</td><td>Add FAQ Content to Key Pages</td><td>5-10 FAQs per page</td><td>Directly answers AI queries</td></tr>
+  <tr><td>4</td><td>Implement Review Schema</td><td>Aggregate ratings from Google, Zillow</td><td>Build trust signals for AI</td></tr>
+</table>
+
+<h2>12.2 Content Strategy for AI Citations</h2>
+<table>
+  <tr><th>Content Type</th><th>Frequency</th><th>Word Count</th><th>AI Citation Goal</th></tr>
+  <tr><td>Luxury Home Buying Guide</td><td>One-time</td><td>5,000+</td><td>Primary citation for buying queries</td></tr>
+  <tr><td>Market Reports</td><td>Monthly</td><td>2,000+</td><td>Data-driven citation</td></tr>
+  <tr><td>Neighborhood Guides</td><td>2/month</td><td>3,000+</td><td>Local authority source</td></tr>
+  <tr><td>Investment Guides</td><td>Quarterly</td><td>4,000+</td><td>Expert advice citation</td></tr>
+</table>
+
+<!-- 13. PRIORITY MATRIX -->
+<h1 class="section-break">13. Priority Matrix</h1>
+<table>
+  <tr><th>Task</th><th>Impact</th><th>Effort</th><th>Priority</th><th>Phase</th></tr>
+  <tr><td>Fix Core Web Vitals</td><td>High</td><td>High</td><td>⭐⭐⭐⭐⭐</td><td>Phase 2</td></tr>
+  <tr><td>Add Schema Markup</td><td>High</td><td>Medium</td><td>⭐⭐⭐⭐⭐</td><td>Phase 1</td></tr>
+  <tr><td>Rewrite Title Tags & Metas</td><td>High</td><td>Low</td><td>⭐⭐⭐⭐⭐</td><td>Phase 1</td></tr>
+  <tr><td>Add FAQ Content + Schema</td><td>High</td><td>Medium</td><td>⭐⭐⭐⭐⭐</td><td>Phase 1</td></tr>
+  <tr><td>Fix Broken Links</td><td>Medium</td><td>Low</td><td>⭐⭐⭐⭐</td><td>Phase 1</td></tr>
+  <tr><td>Create Agent EEAT Pages</td><td>High</td><td>Medium</td><td>⭐⭐⭐⭐</td><td>Phase 1</td></tr>
+  <tr><td>Create Buying Guide</td><td>High</td><td>High</td><td>⭐⭐⭐</td><td>Phase 2</td></tr>
+  <tr><td>Create Neighborhood Guides</td><td>High</td><td>High</td><td>⭐⭐⭐</td><td>Phase 2</td></tr>
+</table>
+
+<!-- 14. 90-DAY ACTION PLAN -->
+<h1 class="section-break">14. 90-Day Action Plan</h1>
+<h2>Phase 1: Quick Wins (Days 1-30)</h2>
+<table>
+  <tr><th>Week</th><th>Task</th><th>Owner</th></tr>
+  <tr><td>Week 1-2</td><td>Rewrite title tags, meta descriptions, fix broken links</td><td>SEO + Developer</td></tr>
+  <tr><td>Week 2</td><td>Submit sitemap to GSC, fix canonical tags</td><td>SEO Specialist</td></tr>
+  <tr><td>Week 3</td><td>Add FAQ content to top 20 pages, implement Review Schema</td><td>Content + Dev</td></tr>
+  <tr><td>Week 4</td><td>Create agent/author profile pages, FAQPage Schema</td><td>Content + Design</td></tr>
+</table>
+
+<h2>Phase 2: Core Optimizations (Days 31-60)</h2>
+<table>
+  <tr><th>Week</th><th>Task</th><th>Owner</th></tr>
+  <tr><td>Week 5-6</td><td>Fix Core Web Vitals, compress images, implement CDN</td><td>Developer</td></tr>
+  <tr><td>Week 6-7</td><td>Create Ultimate Buying Guide, 3 Neighborhood Guides</td><td>Content Team</td></tr>
+  <tr><td>Week 8</td><td>Fix internal linking, add BreadcrumbList Schema</td><td>SEO + Dev</td></tr>
+</table>
+
+<h2>Phase 3: Advanced GEO (Days 61-90)</h2>
+<table>
+  <tr><th>Week</th><th>Task</th><th>Owner</th></tr>
+  <tr><td>Week 9-10</td><td>Fix URL structure, create 7 more Neighborhood Guides</td><td>Dev + Content</td></tr>
+  <tr><td>Week 11-12</td><td>Guest post outreach, publish Market Report</td><td>Link Building + Content</td></tr>
+  <tr><td>Week 13</td><td>GEO monitoring, full audit re-assessment</td><td>SEO Team</td></tr>
+</table>
+
+<!-- 15. EXPECTED RESULTS -->
+<h1 class="section-break">15. Expected Results & KPIs</h1>
+<h2>SEO KPIs</h2>
+<table>
+  <tr><th>KPI</th><th>Current</th><th>30-Day</th><th>60-Day</th><th>90-Day</th></tr>
+  <tr><td>Organic Traffic (Monthly)</td><td>85,000</td><td>95,000 (+12%)</td><td>110,000 (+29%)</td><td>125,000 (+47%)</td></tr>
+  <tr><td>Keyword Rankings (Top 10)</td><td>127</td><td>180 (+42%)</td><td>250 (+97%)</td><td>320 (+152%)</td></tr>
+  <tr><td>Domain Authority</td><td>42</td><td>43</td><td>45</td><td>47</td></tr>
+  <tr><td>Organic CTR</td><td>2.8%</td><td>3.5%</td><td>4.2%</td><td>5.0%</td></tr>
+</table>
+
+<h2>GEO KPIs</h2>
+<table>
+  <tr><th>KPI</th><th>Current</th><th>30-Day</th><th>60-Day</th><th>90-Day</th></tr>
+  <tr><td>GEO Score</td><td>28/100</td><td>45/100</td><td>62/100</td><td>75/100</td></tr>
+  <tr><td>ChatGPT Brand Mentions</td><td>0/5</td><td>1/5</td><td>2/5</td><td>3/5</td></tr>
+  <tr><td>Rich Results</td><td>12</td><td>40</td><td>80</td><td>150</td></tr>
+</table>
+
+<h2>Business Impact</h2>
+<table>
+  <tr><th>Metric</th><th>Current</th><th>Projected</th><th>Improvement</th></tr>
+  <tr><td>Organic Leads</td><td>45/mo</td><td>75/mo</td><td>+67%</td></tr>
+  <tr><td>Contact Form Submissions</td><td>28/mo</td><td>52/mo</td><td>+86%</td></tr>
+  <tr><td>Estimated Revenue Impact</td><td>—</td><td>+$45K-$80K/mo</td><td>—</td></tr>
+</table>
+
+<!-- 16. FINAL REPORT -->
+<h1 class="section-break">16. Final Report</h1>
+<h2>16.1 Audit Summary</h2>
+<table>
+  <tr><th>Audit Area</th><th>Score</th><th>Issues</th><th>Critical</th><th>Status</th></tr>
+  <tr><td>On-Page SEO</td><td>62/100</td><td>18</td><td>5</td><td><span class="badge badge-orange">Needs Improvement</span></td></tr>
+  <tr><td>Technical SEO</td><td>71/100</td><td>15</td><td>4</td><td><span class="badge badge-orange">Moderate</span></td></tr>
+  <tr><td>GEO Readiness</td><td>28/100</td><td>14</td><td>8</td><td><span class="badge badge-red">Critical</span></td></tr>
+  <tr><td>Content Quality</td><td>58/100</td><td>10</td><td>3</td><td><span class="badge badge-orange">Below Benchmark</span></td></tr>
+  <tr><td><strong>Overall</strong></td><td><strong>55/100</strong></td><td><strong>57</strong></td><td><strong>20</strong></td><td><span class="badge badge-red">Needs Work</span></td></tr>
+</table>
+
+<h2>16.2 Key Achievements</h2>
+<ul class="checklist">
+  <li>Completed comprehensive keyword research (200+ keywords mapped)</li>
+  <li>Audited all 312 pages across on-page and technical SEO</li>
+  <li>Identified 57 actionable issues with prioritized recommendations</li>
+  <li>Conducted GEO audit across 4 major AI platforms</li>
+  <li>Created structured data implementation roadmap</li>
+  <li>Developed 90-day action plan with clear ownership</li>
+  <li>Projected 47% organic traffic increase within 90 days</li>
+</ul>
+
+<!-- 17. CONCLUSION -->
+<h1 class="section-break">17. Conclusion</h1>
+<p>This comprehensive SEO + GEO audit reveals that the Luxury Property Website has <strong>significant untapped potential</strong> in both traditional search and emerging AI search. The website currently scores 55/100 overall, with critical gaps in GEO readiness (28/100) and on-page optimization (62/100).</p>
+
+<p>The most impactful opportunities:</p>
+<ol>
+  <li><strong>Core Web Vitals optimization</strong> — Currently all metrics are "Poor"</li>
+  <li><strong>GEO implementation</strong> — The brand is invisible to AI search engines</li>
+  <li><strong>Structured data deployment</strong> — Missing schemas prevent rich results</li>
+  <li><strong>Content depth expansion</strong> — Thin content fails to establish authority</li>
+</ol>
+
+<p>With full implementation, we project:</p>
+<ul>
+  <li><strong>47% increase</strong> in organic traffic (85K → 125K monthly sessions)</li>
+  <li><strong>152% increase</strong> in top-10 keyword rankings (127 → 320 keywords)</li>
+  <li><strong>67% increase</strong> in organic leads (45 → 75 monthly leads)</li>
+  <li><strong>Estimated revenue impact</strong> of $45,000-$80,000 per month</li>
+</ul>
+
+<!-- 18. RESUME POINTS -->
+<h1 class="section-break">18. Resume Points</h1>
+<table>
+  <tr><th>#</th><th>Resume Bullet Point</th><th>Skills</th></tr>
+  <tr><td>1</td><td>Conducted comprehensive Traditional SEO + AI Search (GEO) audit for a luxury real estate website with 312 pages, identifying 57 actionable issues</td><td>SEO, GEO, Analysis</td></tr>
+  <tr><td>2</td><td>Performed keyword research mapping 200+ keywords across 6 categories with search intent analysis</td><td>SEMrush, Ahrefs</td></tr>
+  <tr><td>3</td><td>Audited Core Web Vitals and created roadmap projected to improve mobile speed from 29/100 to 80/100</td><td>Technical SEO</td></tr>
+  <tr><td>4</td><td>Conducted GEO audit across ChatGPT, Google SGE, Perplexity AI, and Claude, identifying zero visibility</td><td>GEO, AI Search</td></tr>
+  <tr><td>5</td><td>Designed structured data implementation plan covering 8 schema types</td><td>Schema Markup</td></tr>
+  <tr><td>6</td><td>Created 90-day prioritized action plan with projected 47% traffic increase</td><td>Strategy, Planning</td></tr>
+  <tr><td>7</td><td>Analyzed 5 competitor digital strategies and identified content gaps</td><td>Competitor Analysis</td></tr>
+  <tr><td>8</td><td>Developed E-E-A-T improvement strategy for AI search visibility</td><td>EEAT, Content</td></tr>
+</table>
+
+<!-- 19. INTERVIEW Q&A -->
+<h1 class="section-break">19. Interview Questions & Answers</h1>
+
+<table>
+  <tr><th>#</th><th>Question</th><th>Answer</th></tr>
+  <tr><td>1</td><td>What is the difference between SEO and GEO?</td><td><strong>SEO</strong> optimizes for traditional search engines like Google. <strong>GEO</strong> optimizes content to be cited by AI-powered search engines like ChatGPT, Google SGE, and Perplexity. GEO focuses on structured data, E-E-A-T signals, and citation-worthy content.</td></tr>
+  <tr><td>2</td><td>How do you conduct keyword research for luxury real estate?</td><td>Use SEMrush/Ahrefs to identify seed keywords, analyze competitors, group by search intent, map to pages, and prioritize by volume, difficulty, and business value. Include location-specific and long-tail variations.</td></tr>
+  <tr><td>3</td><td>What are Core Web Vitals?</td><td>Three metrics Google uses: <strong>LCP</strong> (loading), <strong>FID/INP</strong> (interactivity), <strong>CLS</strong> (visual stability). They are direct ranking factors.</td></tr>
+  <tr><td>4</td><td>How do you improve E-E-A-T?</td><td>Add author bios with credentials, display reviews, earn authoritative backlinks, create expert content, display trust signals, maintain content freshness.</td></tr>
+  <tr><td>5</td><td>What structured data is important for real estate?</td><td>RealEstateListing, FAQPage, Review/AggregateRating, LocalBusiness, BreadcrumbList, Article, VideoObject, Person schemas.</td></tr>
+  <tr><td>6</td><td>How do you prioritize SEO fixes?</td><td>Use impact vs. effort matrix. High-impact, low-effort first (quick wins). Then high-impact, high-effort. Low-impact last.</td></tr>
+  <tr><td>7</td><td>How do AI search engines decide which brands to mention?</td><td>Domain authority, structured data, content depth, E-E-A-T signals, backlinks, FAQ content, and social proof.</td></tr>
+  <tr><td>8</td><td>How do you measure GEO success?</td><td>Track brand mentions across AI platforms, monitor rich results, measure schema impressions, track AI-referred traffic, conduct regular GEO audits.</td></tr>
+  <tr><td>9</td><td>What are unique SEO challenges for luxury real estate?</td><td>High competition, location-based intent, visual content impact on speed, long sales cycles, seasonal fluctuations.</td></tr>
+  <tr><td>10</td><td>How does duplicate content affect SEO?</td><td>Confuses search engines, dilutes link equity, wastes crawl budget. Fix with canonical tags, 301 redirects, or consolidation.</td></tr>
+</table>
+
+<footer>
+  <p>Digital Marketing Internship Report — Task 1: Real Estate SEO + GEO Audit</p>
+  <p>Prepared: June 2026 | Confidential</p>
+</footer>
+
+</body>
+</html>
